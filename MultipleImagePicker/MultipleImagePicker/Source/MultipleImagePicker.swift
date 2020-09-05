@@ -227,16 +227,14 @@ class PhotoLibraryContainer: ObservableObject {
                 self.getAllPhotos()
             case .denied:
                 print("PHPhotoLibrary.requestAuthorization: denied.")
-                break
             case .notDetermined:
                 print("PHPhotoLibrary.requestAuthorization: notDetermined.")
-                break
             case .restricted:
                 print("PHPhotoLibrary.requestAuthorization: restricted.")
-                break
+            case .limited:
+                print("PHPhotoLibrary.requestAuthorization: limited.")
             @unknown default:
                 print("PHPhotoLibrary.requestAuthorization: unknown default.")
-                break
             }
         }
     }
