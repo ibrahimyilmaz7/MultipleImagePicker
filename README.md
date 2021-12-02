@@ -12,7 +12,8 @@ MultipleImagePicker for **SwiftUI**
 **************
 
 
-Since **SwiftUI 2.0**, for **iOS 14+** we have native picker support 🚀
+Since **SwiftUI 2.0**, for **iOS 14+** now we have native multiple image picker support  🚀
+
 You just need the code below 😊
 
 ```swift
